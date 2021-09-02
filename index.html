@@ -10,20 +10,31 @@
     <!-- external css link added -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body> 
+<body>  
+    <!-- search part -->
     <header class="w-50 mx-auto text-center">
         <h1>Search Your Book Here</h1>
     </header>
         <main  >
             <section class="w-50 mx-auto text-center">
                 <input type="text" id="inputSearchId">
+                <!-- btn part -->
                     <button id="btnId" onclick="buttonid()" >Search</button>
             </section>
+
+            
+            <!--  total search result found  -->
+            <h6 id="resultcount"> </h6>
+
+            <!-- result show in card -->
             <div id="resultShow"  class="row row-cols-1 row-cols-md-3 g-4">            
                    
                  
 
             </div>
+
+
+
                 <!-- No result found part  -->
             <div id="noResult" class="text-center my-5 fs-1 fw-bolder">
 
